@@ -69,6 +69,8 @@ body{
 }
 #gift-img-cheers:hover{
     background-image: url(images/cheers.webp);
+    cursor: pointer;
+
 }
 #footer{
     font-size:large;
@@ -76,7 +78,16 @@ body{
     width:400px;
     margin: 40px auto 20px;
     color: white;
+    cursor:pointer;
 }
 a{
     color: white;
+}
+#hello{
+    height: 200px;
+    width: 200px;
+    background-color: #a2d2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
